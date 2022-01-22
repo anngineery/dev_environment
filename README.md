@@ -18,8 +18,5 @@ My development environment config
   - ohmyzsh is an open source zsh config manager. It allows to install theme and config easily
   - I am using [passion theme](https://github.com/ChesterYue/ohmyzsh-theme-passion), which is an [external theme](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)
 ## Step 3: Configure Vim
-- Windows Terminal has copying & pasting mapped to `<ctrl-c>` and `<ctrl-v>` -> disable it, since it interferes with visual block mode shortcut in Vim.
-- (insert the LOCs here)
-- Map `<ESC>` to `Caps Lock`
-- ~~Map `<Ctrl>` to `Caps Lock` (pressed down)~~
-- Use MS [PowerToys](https://github.com/microsoft/PowerToys)
+- Windows Terminal has copying & pasting mapped to `<ctrl-c>` and `<ctrl-v>` -> [disable it](https://github.com/anngineer21/dev_environment/blob/main/settings.json#L5-L16), since it interferes with visual block mode shortcut in Vim.
+- Map `Caps Lock` to `<ESC>` using MS [PowerToys](https://github.com/microsoft/PowerToys)
