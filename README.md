@@ -20,3 +20,6 @@ My development environment config
 ## Step 3: Configure Vim
 - Windows Terminal has copying & pasting mapped to `<ctrl-c>` and `<ctrl-v>` -> [disable it](https://github.com/anngineer21/dev_environment/blob/main/settings.json#L5-L16), since it interferes with visual block mode shortcut in Vim.
 - Map `Caps Lock` to `<ESC>` using MS [PowerToys](https://github.com/microsoft/PowerToys)
+- Enable copying and pasting from the systemclip board
+  - run `vim --version | grep 'clipboard'` and if `-clipboard` pops up then the feature is not included
+  - `sudo apt-get install vim-gtk3 -y` to install it
