@@ -28,3 +28,7 @@ My development environment config
   - run `vim --version | grep 'clipboard'` and if `-clipboard` pops up then the feature is not included
   - `sudo apt-get install vim-gtk3 -y` to install it
 - Download [Vim emulation for VS Code](https://github.com/VSCodeVim/Vim) extension
+
+## Step 5: Make Browser More Efficient
+- How to set up custom search engine in Chrome: [here](https://support.google.com/chrome/answer/95426?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Curl-with-s-in-place-of-query-field%2Ckeyword-field%2Csearch-engine-field)
+- [Session manager extension](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en)
