@@ -1,25 +1,13 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
-        // {
-        //     "command":
-        //     {
-        //         "action": "copy",
-        //         "singleLine": false
-        //     },
-        //     "keys": "ctrl+c"
-        // },
-        // {
-        //     "command": "paste",
-        //     "keys": "ctrl+v"
-        // },
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -31,21 +19,22 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "bellStyle": "none",
             "colorScheme": "Atom One Dark",
-            "cursorShape": "underscore",
-            "font":
+            "cursorShape": "bar",
+            "font": 
             {
                 "face": "JetBrains Mono",
                 "size": 12
             },
-            "startingDirectory": null
+            "startingDirectory": null,
+            "useAcrylic": false
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "powershell.exe",
@@ -74,7 +63,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#282C34",
@@ -329,5 +318,6 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "theme": "system"
 }
