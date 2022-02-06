@@ -18,7 +18,8 @@ My development environment config
 - [ZSH installation guide](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - [ohmyzsh installation guide](https://github.com/ohmyzsh/ohmyzsh)
   - ohmyzsh is an open source zsh config manager. It allows to install theme and config easily
-  - I am using [passion theme](https://github.com/ChesterYue/ohmyzsh-theme-passion), which is an [external theme](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)
+  - ~~I am using [passion theme](https://github.com/ChesterYue/ohmyzsh-theme-passion), which is an [external theme](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)~~
+  - [powerline10k](https://github.com/romkatv/powerlevel10k) theme 
 - Install [zsh-vi-mode](https://github.com/jeffreytse/zsh-vi-mode) to use vim-style key bindings in zsh
 
 ## Step 4: Configure Vim
